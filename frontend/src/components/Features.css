@@ -1,0 +1,160 @@
+.features-section {
+    padding: 100px 24px;
+    background: #ffffff;
+  }
+  
+  .features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Heading */
+  
+  .section-heading {
+    max-width: 700px;
+    margin: 0 auto 60px;
+    text-align: center;
+  }
+  
+  .section-badge {
+    display: inline-block;
+    padding: 7px 13px;
+  
+    border-radius: 30px;
+    background: #eef2ff;
+    color: #4f46e5;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .section-heading h2 {
+    margin: 18px 0;
+  
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #111827;
+  }
+  
+  .section-heading h2 span {
+    color: #2563eb;
+  }
+  
+  .section-heading p {
+    margin: 0;
+  
+    color: #64748b;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+  /* Grid */
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+  }
+  
+  /* Cards */
+  
+  .feature-card {
+    position: relative;
+  
+    padding: 28px;
+  
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+  
+    background: #ffffff;
+  
+    transition:
+      transform 0.25s ease,
+      box-shadow 0.25s ease,
+      border-color 0.25s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-7px);
+  
+    border-color: #bfdbfe;
+  
+    box-shadow: 0 18px 40px rgba(37, 99, 235, 0.1);
+  }
+  
+  .feature-icon {
+    width: 52px;
+    height: 52px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border-radius: 13px;
+  
+    background: #eff6ff;
+  
+    font-size: 24px;
+  }
+  
+  .feature-card h3 {
+    margin: 20px 0 10px;
+  
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+  
+    color: #1e293b;
+  }
+  
+  .feature-card p {
+    margin: 0;
+  
+    color: #64748b;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  
+  .feature-arrow {
+    display: inline-block;
+    margin-top: 18px;
+  
+    color: #2563eb;
+  
+    font-size: 20px;
+    font-weight: 600;
+  
+    transition: transform 0.2s ease;
+  }
+  
+  .feature-card:hover .feature-arrow {
+    transform: translateX(5px);
+  }
+  
+  /* Responsive */
+  
+  @media (max-width: 900px) {
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .features-section {
+      padding: 70px 18px;
+    }
+  
+    .section-heading h2 {
+      font-size: 32px;
+    }
+  
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  }

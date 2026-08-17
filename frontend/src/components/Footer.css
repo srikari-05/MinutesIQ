@@ -1,0 +1,124 @@
+.footer {
+    background: #0f172a;
+    color: #cbd5e1;
+    padding: 70px 24px 25px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 50px;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  
+    color: white;
+    text-decoration: none;
+  
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+  }
+  
+  .footer-logo-icon {
+    width: 36px;
+    height: 36px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border-radius: 9px;
+  
+    background: #2563eb;
+    color: white;
+  }
+  
+  .footer-logo span span {
+    color: #60a5fa;
+  }
+  
+  .footer-brand p {
+    max-width: 300px;
+    margin-top: 18px;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+  
+    color: #94a3b8;
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .footer-column h4 {
+    margin: 0 0 8px;
+  
+    color: white;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  
+  .footer-column a,
+  .footer-column span {
+    color: #94a3b8;
+    text-decoration: none;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+  
+    transition: color 0.2s ease;
+  }
+  
+  .footer-column a:hover {
+    color: #60a5fa;
+  }
+  
+  .footer-bottom {
+    max-width: 1200px;
+  
+    margin: 60px auto 0;
+    padding-top: 22px;
+  
+    border-top: 1px solid #1e293b;
+  
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+  
+    color: #64748b;
+  }
+  
+  @media (max-width: 800px) {
+    .footer-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .footer-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+    }
+  }

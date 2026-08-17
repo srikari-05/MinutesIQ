@@ -1,0 +1,86 @@
+.cta-section {
+    padding: 90px 24px;
+    background: linear-gradient(135deg, #2563eb, #4f46e5);
+  }
+  
+  .cta-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .cta-content {
+    color: white;
+  }
+  
+  .cta-badge {
+    display: inline-block;
+    padding: 7px 14px;
+  
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .cta-content h2 {
+    margin: 20px 0 18px;
+  
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    line-height: 1.2;
+  }
+  
+  .cta-content h2 span {
+    display: block;
+    color: #bfdbfe;
+  }
+  
+  .cta-content p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+  
+    color: #dbeafe;
+  }
+  
+  .cta-button {
+    display: inline-block;
+  
+    padding: 14px 24px;
+  
+    background: white;
+    color: #2563eb;
+  
+    border-radius: 9px;
+  
+    text-decoration: none;
+  
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+  
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .cta-button:hover {
+    transform: translateY(-3px);
+  
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  @media (max-width: 600px) {
+    .cta-section {
+      padding: 70px 18px;
+    }
+  
+    .cta-content h2 {
+      font-size: 32px;
+    }
+  }
